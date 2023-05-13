@@ -39,3 +39,13 @@ jump()
 
 --------------------------
 Use ''' to start and end multi-line comments like so:
+
+-------------------------
+
+
+    Identifiers cannot have spaces in them.
+    Identifiers must begin with a letter, or an underscore _. They can't begin with numbers!
+    Identifiers can use letters and numbers.
+    Identifiers cannot contain symbols such as exclamation marks (!), hyphens (-), periods (.), commas (,), and so forth.
+    You can use uppercase letters, but Python doesn't treat uppercase and lowercase letters the same. In other words, jump, JUMP, and jUmP are not the same identifier to Python!
+

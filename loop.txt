@@ -1,0 +1,29 @@
+# This for loop prints from 0 to 9
+for i in range(10):
+    # print the value of i
+    print(i)
+    
+    -----------------------------------
+    # This prints 1-5
+for num in range(5):
+    print(num + 1)
+    --------------------------
+    
+Range Parameters
+
+You can customize your for loop by adding more information to range(). The range specifier can receive up to 3 parameters, like this:
+
+range(start,end,increment)
+
+Start describes the position to begin. End describes the position to end. The end is not included in your sequence; range() stops before your end parameter.
+
+Increment describes how much to change the value of your counter with each loop. For example, if you specified an increment of 2, you could print all even numbers. You could count backwards with an increment of -1.
+
+If you don't set custom values for them, your for loop will use default values. By default, increment is set to 1 and start is set to 0. The end parameter is not optional.
+--------------------------------------------------
+# start is 9, end is -1, and increment is -1
+for i in range(9,-1,-1):
+    # print the value of i
+    print(i)
+    
+-------------------------------

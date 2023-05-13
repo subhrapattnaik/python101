@@ -38,3 +38,4 @@ fire()
 jump()
 
 --------------------------
+Use ''' to start and end multi-line comments like so:

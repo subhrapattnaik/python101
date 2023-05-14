@@ -4,3 +4,20 @@
 *= 	x *= y 	Multiplies x by y and assigns the result to x. Same as x = x * y.
 /= 	x /= y 	Divides x by y and assigns the result to x. Same as x = x / y.
 %= 	x %= y 	Assigns the modulus of x by y to x. Same as x = x % y.
+
+
+--------------------------------------
+Logical Operators
+
+
+
+
+Logical Operators
+
+In Python, there are logical and, or, and not operators.
+Name 	Operator 	Description
+Logical And 	and 	expr1 and expr2 returns True only if both expr1 and expr2 are true. Otherwise, it returns False.
+Logical Or 	or 	expr1 or expr2 returns True if either expr1 or expr2 is true. Returns False only if both expr1 and expr2 are false.
+Logical Not 	not 	not expr returns False if expr is true, returns True if expr is false.
+
+----------------------------------------

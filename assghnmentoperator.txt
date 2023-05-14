@@ -9,11 +9,6 @@
 --------------------------------------
 Logical Operators
 
-
-
-
-Logical Operators
-
 In Python, there are logical and, or, and not operators.
 Name 	Operator 	Description
 Logical And 	and 	expr1 and expr2 returns True only if both expr1 and expr2 are true. Otherwise, it returns False.
@@ -21,3 +16,9 @@ Logical Or 	or 	expr1 or expr2 returns True if either expr1 or expr2 is true. Re
 Logical Not 	not 	not expr returns False if expr is true, returns True if expr is false.
 
 ----------------------------------------
+When evaluating expressions that use and and or, Python may use a technique called short-circuiting, which allows Python to skip evaluating parts of the expression that won't change its truth value.
+
+When you use and, if one of the expressions is false, it will immediately return False without evaluating later expressions.
+
+When you use or, if one of the expressions is true, it will immediately return True without evaluating later expressions.
+--------------------------------------

@@ -49,3 +49,14 @@ Example:
 If x = 7//3, then x is equal to 2
 
 --------------------------------------------
+
+
+    Use the fire() command to clear the path of enemies.
+    The for loop in Python has the following syntax:
+------------------------------------
+ for i in range(3):
+    fire()
+    jump()
+    forward()
+------------------------------
+

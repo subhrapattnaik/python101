@@ -59,4 +59,9 @@ If x = 7//3, then x is equal to 2
     jump()
     forward()
 ------------------------------
+for i in range(3):
+    fire()
+    forward()
+    jump()
+
 

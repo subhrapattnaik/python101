@@ -11,3 +11,19 @@ fire() 	Launches an arrow that travels 5 steps forward.
 
 
 jump() 	Makes the character jump over a gap and land on the other side.
+
+
+forward() 	Moves the character one step forward.
+
+turn_right() 	Turns the character to the right.
+
+turn_left() 	Turns the character to the left.
+
+has_path_right() 	Returns True if there is a path to the right. Otherwise, it returns False.
+
+has_path_left() 	Returns True if there is a path to the left. Otherwise, it returns False.
+
+
+
+
+

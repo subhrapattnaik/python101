@@ -1,0 +1,10 @@
+for i in range(10) :
+    forward()
+    if has_path_right() :
+        turn_right()
+    if has_path_left():
+        turn_left()
+        
+    if enemy_in_sight():
+        fire()
+ -------------------------------------------------------   

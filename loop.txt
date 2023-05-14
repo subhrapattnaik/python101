@@ -32,3 +32,20 @@ for i in range(9):
 
 
 output: 0 to 8 
+--------------------------
+Modulo (Mod)	%	x % y
+Returns the remainder after dividing the two numbers.
+Example:
+If x = 8 % 4then x is equal to 0.
+---------------------------------------
+Exponent	**	x**y
+Returns the value that is x to the y power.
+Example:
+If x = 9**2, then x is equal to 81
+----------------------------------------------
+Floor Division	//	x//y
+Returns the whole number part of the quotient of x divided by y.
+Example:
+If x = 7//3, then x is equal to 2
+
+--------------------------------------------

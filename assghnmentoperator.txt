@@ -1,0 +1,6 @@
+= 	x = y 	Assigns value of y to x.
++= 	x += y 	Adds y to x and assigns the result to x. Same as x = x + y.
+-= 	x -= y 	Subtracts y from x and assigns the result to x. Same as x = x - y.
+*= 	x *= y 	Multiplies x by y and assigns the result to x. Same as x = x * y.
+/= 	x /= y 	Divides x by y and assigns the result to x. Same as x = x / y.
+%= 	x %= y 	Assigns the modulus of x by y to x. Same as x = x % y.

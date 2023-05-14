@@ -38,3 +38,16 @@ else:
         print(str(i) + " - Between 20 and 24.")
         
   -------------------------------------------
+  
+  for i in range(22) :
+    if(has_path_left()) :
+        turn_left()
+    elif(has_path_right()) :
+        turn_right()
+    if(enemy_in_sight()):
+        fire()
+    forward()
+    
+    ----------------------------------------------
+    
+    

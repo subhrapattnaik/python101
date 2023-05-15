@@ -51,3 +51,24 @@ else:
     ----------------------------------------------
     
     
+for i in range(13) :
+    if has_path_right() :
+        turn_right()
+        forward()
+    if has_path_left() :
+        turn_left() 
+        forward()
+    if is_gap_ahead():
+        jump()
+    if is_gap_ahead():
+        jump()
+    if has_path_right() :
+        turn_right()
+        forward()
+    if has_path_left() :
+        turn_left() 
+        forward()
+    if i == 12:
+        break;
+    forward()
+    ------------------------------------------------

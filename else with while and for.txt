@@ -1,0 +1,30 @@
+
+While / Else and For / Else
+
+You can also use else statements with while and for loops, too. Just like with the if statement, the else clause allows you to execute commands when the loop finishes. The syntax to use else with while and for loops:
+
+# for "while" loop
+
+while (condition):
+
+    # commands
+
+else:
+
+    # commands
+
+​
+
+# for "for" loop
+
+for i in range(number):
+
+    # commands
+
+else:
+
+    # commands
+
+At first glance, the else clause might seem pointless. But it's useful because the code in else statements only get executed if the loop finishes naturally. In other words, any commands in your else won't execute if a loop is stopped by a break command.
+
+else and break give you more fine-grained control of exactly how your program executes.

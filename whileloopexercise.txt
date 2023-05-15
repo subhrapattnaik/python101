@@ -40,3 +40,14 @@ for i in range(3):
         forward()
         
    --------------------------------------------
+   
+    while not reached_goal():
+    if has_path_right():
+        turn_right()
+        forward()
+    elif is_gap_ahead():
+        jump()
+    else :
+        forward()
+        
+  ---------------------------------------------

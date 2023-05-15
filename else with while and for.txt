@@ -28,3 +28,24 @@ else:
 At first glance, the else clause might seem pointless. But it's useful because the code in else statements only get executed if the loop finishes naturally. In other words, any commands in your else won't execute if a loop is stopped by a break command.
 
 else and break give you more fine-grained control of exactly how your program executes.
+---------------------------------------------------------------
+Example:
+
+# a "while" loop that does not end naturally
+i = 0
+while True:
+    print(i)
+    i+=1
+    if i > 9:
+        break
+else:
+    print("This will not get executed.")
+
+# a "for" loop that does end naturally
+for i in range(8, 0, -1):
+    print(i)
+    i-=1
+else:
+    print("This will get executed.")
+    
+    -----------------------------------------

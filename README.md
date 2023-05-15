@@ -23,6 +23,8 @@ has_path_right() 	Returns True if there is a path to the right. Otherwise, it re
 
 has_path_left() 	Returns True if there is a path to the left. Otherwise, it returns False.
 
+has_path_ahead() 	Returns True if there is a path in front of the character. Otherwise, it returns False.
+
 
 
 

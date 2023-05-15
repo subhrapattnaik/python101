@@ -19,3 +19,11 @@ while not reached_goal():
             turn_right()
             
  -------------------------------------------------------------------------------
+ 
+ # do while there is a path ahead
+
+for i in range(3):
+    if is_gap_ahead():
+            jump()
+    while has_path_ahead():
+        forward()

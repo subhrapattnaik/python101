@@ -1,0 +1,30 @@
+# grade
+grade = 84
+
+# letter grade.
+#  "A" - 90 and above
+#  "B" - 80 to 89
+#  "C" - 70 to 79
+#  "D" - 60 to 69
+#"FAIL" - less than 59
+#
+
+# each letter grade has a nested "if" statement
+print(grade)
+if (grade < 90):
+    # not A
+    if (grade < 80):
+        # not B
+        if (grade < 70):
+            # not C
+            if (grade < 60):
+                # not D
+                print("FAIL")
+            else:
+                print("D")
+        else:
+            print("C")
+    else:
+        print("B")
+else:
+    print("A")

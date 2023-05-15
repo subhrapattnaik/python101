@@ -28,3 +28,34 @@ if (grade < 90):
         print("B")
 else:
     print("A")
+    -----------------------------------------------------------
+    
+   
+Using Elif Instead
+
+A series of elif statements can be used instead of the nested ifs. Let's change the conditions a little bit and use a series of elifs for the same output.
+
+
+grade = 70
+
+# letter grade.
+#  "A" - 90 and above
+#  "B" - 80 to 89
+#  "C" - 70 to 79
+#  "D" - 60 to 69
+#"FAIL" - less than 59
+#
+
+# using else-if for each each letter grade
+print(grade)
+if (grade >= 90):
+    print("A")
+elif (grade >= 80):
+    print("B")
+elif (grade >= 70):
+    print("C")
+elif (grade >= 60):
+    print("D")
+else:
+    print("FAIL")
+

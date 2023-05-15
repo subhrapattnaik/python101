@@ -21,4 +21,11 @@ while (i < 10):
 
 The condition in this case is i < 10. Click on the run button to see how it works. 
 ------------------------------------------------------------------------------------
-    
+    # print numbers from 3 to 1
+i = 3
+while (i >= 1):
+    print(i)
+    i-=1
+print("Liftoff!!!")
+
+-------------------------------------

@@ -25,7 +25,7 @@ has_path_left() 	Returns True if there is a path to the left. Otherwise, it retu
 
 has_path_ahead() 	Returns True if there is a path in front of the character. Otherwise, it returns False.
 
-
+reached_goal() 	Returns true if the character has reached the pixie dust. Otherwise, it returns false.
 
 
 

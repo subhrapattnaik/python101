@@ -51,3 +51,22 @@ for i in range(3):
         forward()
         
   ---------------------------------------------
+  
+  # a "while" loop that does not end naturally
+i = 0
+while True:
+    print(i)
+    i += 1
+    if i > 9:
+        break
+else:
+    print("This will not get executed.")
+
+# a "for" loop that does end naturally
+for i in range(8, 0, -1):
+    print(i)
+    i -= 1
+else:
+    print("This will get executed.")
+    
+    --------------------

@@ -1,0 +1,16 @@
+use the break command to stop a while loop before it ends naturally. 
+
+# If condition2 becomes true while the loop is running, break stops the loop.
+while (condition1):
+    if (condition2):
+        break
+        
+-------------------------------
+
+# If condition2 becomes true while the for loop is running, break stops the loop.
+for i in range(number):
+    if (condition2):
+        break
+        
+        
+------------------------------------

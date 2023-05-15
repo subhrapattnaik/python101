@@ -70,3 +70,8 @@ else:
     print("This will get executed.")
     
     --------------------
+    
+    while True:
+    print("Can't stop, won't stop!")
+    
+    

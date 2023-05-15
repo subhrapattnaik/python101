@@ -58,4 +58,15 @@ elif (grade >= 60):
     print("D")
 else:
     print("FAIL")
+    ------------------------------------------
+    
+    
+    for i in range(13) :
+    if has_path_left() :
+        turn_left()
+        forward()
+    elif is_gap_ahead() :
+        jump()
+    else :
+        forward()
 

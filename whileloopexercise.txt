@@ -1,0 +1,11 @@
+# go forward while there is a path in front
+while not reached_goal():
+    
+    # check if there is a path to the left and turn left
+    if has_path_ahead():
+        forward()
+        if has_path_left(): 
+            turn_left()
+        else:
+            forward()
+        ----------------------------------------------------------------------

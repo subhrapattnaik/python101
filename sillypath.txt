@@ -1,0 +1,13 @@
+for i in range(18) :
+    if has_path_left() :
+        turn_left()
+        
+    if has_path_right() :
+        turn_right()
+        
+    if is_gap_ahead():
+        jump()
+        
+    else :
+        forward()
+        

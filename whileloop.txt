@@ -1,0 +1,24 @@
+A while loop executes the same code again and again—as long as the specified condition is true.
+
+The while loop has the following syntax:
+
+while (condition):
+
+    commands ...
+
+The condition determines how long the loop will continue to execute. For example, you might use a condition like i < 10. 
+This says keep those commands in the while loop running, as long as the value of i is less than 10.
+---------------------------------------------------------------------------------------
+example:
+
+i = 0
+while (i < 10):
+    print(i)
+    i+=1
+    
+   Let's use a while loop to count from 0 to 9. You need to initialize the variable i = 0 outside the while loop and
+   increment the variable using the line i +=1 at the bottom of the loop.
+
+The condition in this case is i < 10. Click on the run button to see how it works. 
+------------------------------------------------------------------------------------
+    

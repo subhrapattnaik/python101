@@ -97,3 +97,22 @@ The values don't have to all be the same type, either. You can assign variables 
 a, b, c = 1, 2.0, "three"
 
 -------------------------------------------------
+
+
+Assigning Several Variables
+
+This example declares and assigns the three variables x, y, and z in a single statement, then assigns three more called a, b, and c, in terms of x, y, and z. Then it prints the value of those variables. Press Play to see the output.
+
+1
+
+x, y, z = 1, 2, 3
+
+2
+
+a, b, c = x+1, x+y, (x*y*z)
+
+3
+
+print(a,b,c)
+
+-----------------------------------------------

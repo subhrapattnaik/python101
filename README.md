@@ -27,5 +27,9 @@ has_path_ahead() 	Returns True if there is a path in front of the character. Oth
 
 reached_goal() 	Returns true if the character has reached the pixie dust. Otherwise, it returns false.
 
+enemy_in_sight() 	Returns true if the path in front has an enemy. Returns false if the path is clear.
+get_enemy_health() 	Returns the health of the enemy on the path ahead. Returns 0 if the path is clear.
+fire() 	Launches an arrow that travels 5 steps forward.
+
 
 

@@ -37,3 +37,43 @@ string1.lower() 	This method converts the string to lower case.
 
 string1.upper() 	This method converts the string to upper case.
 ------------------------------------------
+
+# creating a string variable
+str0 = "The nice dog jumped over the cat"
+
+# get the length of the string
+len = len(str0)
+print(len)
+
+# get the starting index of text "jump"
+# inside the variable "str"
+index = str0.index("jump")
+print(index)
+
+# extracts string "jumped" from "str"
+# using the index from above as the starting index
+substr = str0[index:len]
+print(substr)
+
+# lower and upper case
+lower = str0.lower()
+upper = str0.upper()
+print(lower)
+print(upper)
+
+# concatenate strings using "+" vs %s
+str1 = "Jane"
+str2 = "Doe"
+num1 = 123
+num2 = 456
+str3 = str1+" "+str2
+print(str3)
+
+# this does not work in Python:
+# str3 = str1 + num1
+# you need to do this instead:
+str3 = str1 + str(num1)
+print(str3)
+str3 = str(num1) + str(num2)
+print(str3)
+--------------------------------------

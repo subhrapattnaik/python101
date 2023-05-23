@@ -4,3 +4,36 @@ quoted_string = 'He said, "Yes!"'
 \
 message = 'She said, "I like ciphers".'
 print(message)
+\
+----------------------------------------------
+
+
+This won't work! Why not? 32 and "Hello" are two different data types. One is a string and the other is a number. To combine a number and a string, you'll need to convert the number to a string using str() first.
+
+print(str(32) + "Hello")
+
+That function, str(), converts the number 32 into a string that holds the string "32".
+
+-------------------------------------------
+print("hello"*40)
+
+output:
+
+
+\
+hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+-----------------------------------------
+
+Method 	Description
+len(string1) 	This function returns the length of the string (how many characters are in it).
+\
+string1.index("text") 	This method returns the index position of the first occurrence specified by the parameter text, inside the string. If you wanted to know the position of the first instance of the letter a within string1, you would write: string1.index("a")
+\
+
+string1[start:end] 	This method is used to extract a portion of the string, sometimes called a substring. The first parameter start is the starting index position for the extraction while the second parameter end specifies the last position. For example, to extract the first three characters of string1, you would write string1[0:2]
+\
+string1.lower() 	This method converts the string to lower case.
+\
+
+string1.upper() 	This method converts the string to upper case.
+------------------------------------------

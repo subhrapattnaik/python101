@@ -4,7 +4,15 @@ Instructions: create a nested if formula where:
 First condition Full-Time							
 Second condition GPA Greater than 4.5							
 2. Results:							
-Gets a discount – return “Yes", otherwise “No"							
+Gets a discount – return “Yes", otherwise “No"	
+
+\
+
+
+
+
+
+\
 The following formula is a great example of how to use Nested If in this case. 							
 =IF(B9="Full-Time",IF(B10>4.5,"Yes","No"),"No")							
 Alternatively, you could switch between the first and the second conditions:							

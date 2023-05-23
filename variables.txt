@@ -77,3 +77,23 @@ print(str3)
 str3 = str(num1) + str(num2)
 print(str3)
 --------------------------------------
+
+Defining Multiple Variables
+
+To define multiple variables in a single statement, separate the variables you want to define with a comma ,. Then put a = operator and the values you want to assign to the variables in corresponding order, also separated by commas. The values assigned can have different types.
+
+x, y, z = 1, 2, 3
+
+
+
+Here, x, y, and z are assigned values in a single line of code.
+
+The same syntax works with strings, too:
+
+mouse1, mouse2, mouse3 = "Mickey", "Minnie", "Jerry"
+
+The values don't have to all be the same type, either. You can assign variables of different types on the same line.
+
+a, b, c = 1, 2.0, "three"
+
+-------------------------------------------------

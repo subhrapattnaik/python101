@@ -1,0 +1,6 @@
+quoted_string = 'He said, "Yes!"'
+
+
+\
+message = 'She said, "I like ciphers".'
+print(message)

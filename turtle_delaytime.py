@@ -20,3 +20,23 @@ screen.ontimer(change_color, 3000)
 screen.bgcolor("#654321")
 
 #---------------------------------------------------------------------
+
+
+#n this example, we are going to make the square turtle teleport to a random location of the screen every second.
+import turtle, random
+
+screen = turtle.Screen()
+
+square = turtle.Turtle()
+square.shape("square")
+square.penup()
+square.speed(0)
+
+def f():
+    x = random.randint(-200, 200) # get a random number between -200 and 200
+    y = random.randint(-200, 200)
+    square.goto(x, y)
+    screen.ontimer(f, 1000) # call f again after 1 second
+
+screen.ontimer(f, 1000)
+screen.listen()

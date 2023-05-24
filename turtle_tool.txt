@@ -18,5 +18,26 @@ In order to use turtle graphics, you must import the turtle module.
 
 \
 
+screen = turtle.Screen() # get the turtle screen
 
+\
+screen.bgcolor("blue")
+\
+
+
+
+----------------------------------------
+t = turtle.Turtle() #create a new turtle
+t.shape("square")
+
+\
+
+import turtle
+screen = turtle.Screen()
+screen.bgcolor("green")
+t = turtle.Turtle() #create a new turtle
+t.shape("arrow")
+#circle,square,arrow,triangle etc....
+\
+-----------------------
 

@@ -1,0 +1,64 @@
+Data Type Conversions
+
+Python has functions that can be used to convert a value to a specific type, if possible.
+Function 	Description
+int(value) 	Converts a value (such as a string or float) to an integer.
+float(value) 	Converts a value (such as a string or integer) to a floating point number.
+str(value) 	Converts a value (such as an integer or float) to a string.
+
+-------------------------------------
+\
+# A float can be converted to an int with int()
+# The result will be rounded towards zero (the decimal portion is removed)
+x = int(3.333)
+print(x + 7)
+
+# An int can be converted to a float with float()
+# The result will have the same value, but will end in .0
+x = float(5)
+print(x + 1.2)
+\
+
+----------------------------------------
+\
+x = int("25")
+print(x + 7)
+
+# The following code will cause an error because int() only works with strings of integers
+# Try uncommenting it and running the code
+# x = int("25.33")
+
+# Strings of floats can be converted using float()
+x = float("25.33")
+print(x + 3.33)
+
+# float() can be used on integer strings
+# In this case, the int 25 is "expanded" to the float 25.0
+x = float("25")
+print(x + 3.33)
+
+\
+------------------------------------------
+\
+x = str(12)
+print("This is a string: " + x)
+x = str(3.14)
+print("This is also a string: " + x)
+\
+-----------------------------------
+
+\
+
+# float()
+x = float(int("25"))
+print(x)
+
+# returns only the decimal number
+y = float(str(25.33))
+print(y)
+
+# spaces are not allowed in the string
+# z = float("3.14 24")
+
+\
+--------------------------------

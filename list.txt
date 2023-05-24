@@ -1,0 +1,13 @@
+hobbies=["reading","cycling","learning"]
+length=len(hobbies)
+print(length)
+my_fav_time=hobbies[1]
+hobbies[2]="teaching"
+hobbies.append("trading")
+print(hobbies)
+print(my_fav_time)
+
+
+\
+----------------------------------------------
+The list data type allows a single variable to store multiple values.

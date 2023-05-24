@@ -1,0 +1,116 @@
+Dictionaries are a special kind of data type used to store pairs of values.
+
+The values stored by dictionaries are called key-value pairs. Dictionaries are nice for storing structured data.
+
+dictionary_variable = {'name1': value1, 'name2': value2, ....}
+
+    'name1': value1 is the first key-value pair.
+    'name2': value2 is the second key-value pair.
+    
+   --------------------------------------------------------------------- 
+    You can also store numbers in a dictionary. Here's a dictionary that 
+    stores bowling scores for a group, using the bowler's first name as the key.
+bowling_scores = {'samantha': 80, 'suzi': 101, 'mei': 139, 'nancy': 107}
+
+\
+--------------------------------------------------------
+
+
+Mixed Data Types
+
+You can also have items with mixed types where each item is a different data type.
+
+For example, you can store first_name, last_name, and score as a record of the game's high score.
+
+high_score = {
+
+    'first_name': "John",
+
+    'last_name': "Doe",
+
+    'score': 520
+
+}
+
+----------------------------------------------------
+
+
+An Empty Dictionary
+
+To declare an empty dictionary, simply use the curly brackets without any items in it.
+
+empty_dictionary = {}
+
+------------------------------------------
+
+
+Accessing Key-Value Pairs
+
+Unlike lists, dictionaries are unordered, which means you can't refer to the key-values within dictionaries by their position.
+
+Instead, you need to use the key in order to access the value of item inside the dictionary, using the syntax:
+
+dictionary["name"]
+
+For example, you can get the last_name of the leader dictionary by writing:
+
+leader["last_name"]
+
+Or if you wanted to find Suzi's score from the bowling_scores dictionary, we'd write:
+
+bowling_scores["suzi"]
+-----------------------------------------------------------
+Updating A Value
+
+You can also change the value of a key-value pair in a dictionary.
+
+For example, let's change "John" to "Jane" in the leader dictionary.
+
+You can do this with this syntax:
+
+leader["first_name"] = "Jane"
+\
+------------------------------------------------------
+\
+
+Adding A New Key-Value
+
+Adding an all new key-value pair to a dictionary works with the same syntax as updating. Let's say you forgot to add a score to your bowling_scores dictionary—your friend Lynn's, who scored 140. You could add her score to the dictionary like so:
+
+bowling_scores['lynn'] = 140
+\
+---------------------------------------------------------
+Deleting A Value
+
+You can delete a key-value pair using the del keyword.
+
+For example, let's delete the first_name key of the leader dictionary.
+
+You can do this with this syntax:
+
+del leader["first_name"]
+
+--------------------------------
+
+example:
+\
+example_dictionary = {
+    'x_position':0,
+    'y_position':0,
+    'size':1,
+    'name':"Teddy Bear"
+}
+
+#create an empty dictionary
+dict1={}
+#add a new key value pair to the dictionary
+dict1["first_name"]="subhra"
+
+print("My object is located at (" +
+    str(example_dictionary['x_position']) + ", " +
+    str(example_dictionary["y_position"]) + ") with a size of " +
+    str(example_dictionary['size']) + " and is named " +
+    example_dictionary["name"])
+    
+   \
+   -----------------------------------------------------

@@ -37,3 +37,38 @@ screen.listen()
 Notice that the listen() method does not require a parameter, and you only need to call it once to activate a turtle screen's listener, even if you have more than one onkey() method.
 
 ----------------------------------------"""
+#detecting a key press
+import turtle
+
+screen = turtle.Screen()
+
+square = turtle.Turtle()
+square.penup()
+square.speed(0)
+
+def f():
+    square.write("You pressed the up key")
+
+screen.onkey(f, "Up")
+screen.listen()
+
+----------------------------------------
+#A Turtle That Moves with a key press
+import turtle
+
+screen = turtle.Screen()
+
+square = turtle.Turtle()
+square.shape("square")
+square.penup()
+square.speed(0)
+
+def f():
+    square.forward(10)
+
+screen.onkey(f, "Right")
+screen.listen()
+
+-------------------------------------
+
+

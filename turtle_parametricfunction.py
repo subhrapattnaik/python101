@@ -24,3 +24,8 @@ for i in range(0,628) :
     if(not math.isnan(y)) :
         pen.goto(x, y)
         pen.pendown()
+        
+        
+        #https://www.tynker.com/code/project/5ffddea3f8740573224b546b
+        
+        learn more about drawing different patterns by turtle

@@ -1,0 +1,90 @@
+
+Review
+
+Let's review what you've learned in this lesson. Read carefully because there's a Quiz coming up next!
+Using the Turtle Tool
+
+In order to use turtle graphics, you must always start by importing the module.
+
+import turtle
+
+The turtle Screen
+
+The screen object is where your turtles will draw and move.
+
+In order to draw with turtles, you must define the screen using the turtle.Screen() function.
+
+screen = turtle.Screen() # get the turtle screen
+
+Background Color
+
+You can change the screen's background color by calling the bgcolor() function from the screen object (such as screen.bgcolor("blue")).
+Turtle Object
+
+To create a turtle, use the turtle.Turtle() method and assign its output to a variable.
+
+You can make as many turtles as you want. This line of code creates a turtle named bob.
+
+bob = turtle.Turtle()
+
+Movement
+
+You can interpret and control the movement and position of a turtle using (x, y) coordinates. The center of the screen is at position (0,0). The x axis increases towards the right while the y axis increases upwards.
+
+These methods can be called to move a turtle around:
+
+forward(x)    # moves the turtle object forward by x pixels
+
+​
+
+goto(x,y)     # moves to (x, y) regardless of current position
+
+​
+
+left(x)       # turns the turtle object left/counterclockwise by x degrees
+
+​
+
+right(x)      # turns the turtle object right/clockwise by x degrees
+
+Methods are called using dot notation from the turtle that will move:
+
+bob.forward(100)
+
+Pen Drawing
+
+You can control whether the turtle object draws a line as it moves with penup() and pendown() methods.
+
+You can change the color of the line as well with pen.color("blue").
+Built-in Shapes
+
+You can set the turtle's shape with the shape() method.
+
+The turtle library provides 6 different built-in shapes you can use out of the box:
+
+'arrow', 'turtle', 'circle', 'square', 'triangle', 'classic'
+
+For example, the following code changes the shape of the turtle bob to a triangle:
+
+bob.shape('triangle')
+
+Registering New Shapes
+
+You can also register custom shapes with the screen using the screen.register_shape(name, points) method:
+
+screen = turtle.Screen()
+
+​
+
+points = [(-20,-20),(20,-20),(20,0),(0,0),(0,20),(-20,20)]
+
+​
+
+screen.register_shape('new', points)
+
+register_shape() takes two parameters:
+
+    a string value for the name of the new shape, and
+    a list of (x, y) points that represent the new shape when connected in order. Each point in the list is a tuple with two values: [(x1, y1), (x2, y2), ..., (xn, yn)]. (A tuple is a similar to a list, but it uses parentheses instead of brackets.)
+
+In the code above, the name of the new shape is 'new', and the shape looks like a letter L.

@@ -1,0 +1,67 @@
+
+Review
+
+Review what you have learned so far in this lesson. Read carefully because there's a Quiz coming up next!
+Defining a Function
+
+Function definitions begin with the keyword def followed by a function name and parentheses, and then a colon.
+
+    The code segment within each function is indented.
+    A return command exits a function and can pass a value back to the caller.
+
+Here is an example of a function definition:
+
+def function_name():
+
+    # commands
+
+    return
+
+Function Parameters
+
+Functions can also be defined with parameters, which allow external information to be passed into functions.
+
+Parameters are added within the parentheses of function definitions. Parameter names should be unique and separated with commas.
+
+Here is an example of a function that takes three parameters and prints them out:
+
+def function_name(parameter1, parameter2, parameter3):
+
+    print(parameter1)
+
+    print(parameter2)
+
+    print(parameter3)
+
+Function Scope
+
+A scope defines the visibility of an identifier (a variable or function). You only need to know two levels of scope: global and local.
+Global Scope
+
+Identifiers defined in global scope can be seen by all of the program. All identifiers defined outside of functions are in global scope.
+Local Scope
+
+Identifiers defined inside functions are in local scope and can only be seen by code of the same scope. A variable defined inside a function cannot be accessed outside of that function.
+The onkey() Function
+
+The turtle screen has a method called onkey() that allows you to program a function to respond to any key.
+
+    onkey() takes two parameters:
+    The first parameter is the function you want to perform in response to the key press.
+    The second parameter requires a string of the key name. Some examples of valid names are: "Space", "a", "w", or "Up".
+
+The ontimer() Function
+
+The turtle screen has a function called ontimer() that allows code to be called on a timer.
+
+ontimer() takes two parameters:
+
+    The first parameter is the function you want to perform.
+    The second is the time (in milliseconds) the function will wait before executing. Since it takes milliseconds, you would need to put 1000 in order to wait one second.
+
+The listen() Function
+
+You must activate the turtle screen's listener by calling its listen() method. This is required in order for any of the onkey() or ontimer() methods to take effect.
+
+    The listen() method does not require a parameter.
+    listen() only needs to be called once to activate a turtle screen's listener.

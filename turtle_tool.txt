@@ -1,0 +1,22 @@
+it is a software library stored in what is called a Python module. In this case, the module is called turtle, and it contains a large set of functions 
+for moving a virtual turtle around a screen.
+\
+
+----------------------------
+We will teach you several useful turtle functions in this lesson, but if you want to learn more,
+you can check out the official Python turtle API here.
+
+\
+---------------------------
+
+turtle produces output on a graphics canvas, rather than as text to the console. There are many different ways to produce output, 
+such as tactile, audio, visual, or text.
+\
+------------------------------------
+
+In order to use turtle graphics, you must import the turtle module. 
+
+\
+
+
+

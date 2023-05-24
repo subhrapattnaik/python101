@@ -26,3 +26,14 @@ screen.onkey(jump, "Space")
 For example, you might define a function called jump(), then bind the Space key to that function. You'd write that like this:
 
 ----------------------------------------------------------------"""
+"""
+
+Listen for Keys
+
+Once you've used onkey(), we have to add another line of code to activate the turtle screen's listener. Otherwise, the screen won't "hear" the keys being pressed. You use it like this:
+
+screen.listen()
+
+Notice that the listen() method does not require a parameter, and you only need to call it once to activate a turtle screen's listener, even if you have more than one onkey() method.
+
+----------------------------------------"""

@@ -1,0 +1,19 @@
+
+What is Operator Precedence?
+
+Operator precedence is the order in which operators in an expression are evaluated. Arithmetic operators in Python are evaluated similar to the arithmetic operator precedence you've learned in school, PEDMAS.
+
+You can use parentheses to override precedence of operators.
+Operator Precedence
+
+Expressions will evaluate operator in this order, from first to last (highest precedence to lowest):
+Type 	Operators
+parentheses 	()
+exponent 	**
+multiply/divide 	*, /, %
+addition/subtraction 	+, -
+comparison 	<, <=, >, >=, ==, !=
+negation 	not
+logical-and 	and
+logical-or 	or
+assignment 	=, +=, -=, *=, /=, %=

@@ -1,0 +1,127 @@
+https://www.tynker.com/code/python/411/game-design/?c=setup&#review
+
+
+
+Review
+
+Let's review what you've learned in this lesson.
+Sprites
+
+A sprite is a graphical representation of an object in a program. When you're using the turtle module to create games, a turtle object can be a sprite.
+
+sprite = turtle.Turtle()
+
+When you're using a turtle object as a sprite, you should set it with these properties:
+
+sprite.penup() # make the turtle object not draw a line as it moves
+
+​
+
+sprite.speed(0) # make the turtle's movement as fast as possible
+
+If you need copies of a single sprite, you can create copies by cloning it. You can create one "prototype" sprite with the correct initial values, then clone it like so:
+
+actor = sprite.clone()
+
+Game Loop
+
+A game loop is a series of commands that are repeated constantly when the game is in progress. It usually carries out these tasks:
+
+    Set or update all the sprites
+    Check on conditions that the game depends on, like whether the game has been won or lost
+
+You can implement a game loop by creating an update() function that completes some commands, then calls itself after a delay.
+
+def update():
+
+    # commands()
+
+​
+
+    screen.ontimer(update, 1000)
+
+You will need to call the update() function once to kick off the loop.
+
+update()
+
+More on Lists
+
+You can use a for loop to iterate through a list by replacing the "for" loop's range with the list:
+
+list = ['h','e','l','l','o']
+
+for i in list:
+
+    print(i)
+
+Lists also have some useful methods that you can use to add or remove elements.
+Method 	Usage 	Description
+append 	list.append(element) 	Appends an element to the end of the list.
+insert 	list.insert(index,element) 	Inserts an element at the specific index on the list.
+pop 	list.pop(index) 	Removes the element at a specific index on the list.
+Working with Lists
+
+Here's our list:
+
+list = ['a','b','c','d','e','f']
+
+Append
+
+Let's start by appending a single item.
+
+list.append('g')
+
+After appending one item, the list looks like this:
+
+['a','b','c','d','e','f','g']
+Insert
+
+At this point, list[2], the element at the third index on the list, is 'c'.
+
+list.insert(2,'x')
+
+After inserting 'x' at the third index, the list looks like this:
+
+['a','b','x','c','d','e','f','g']
+
+When an element is inserted into a list, all elements after that index get pushed back one spot.
+
+After the insertion, 'c' is now at list[3] and list[2] is now 'x'.
+Pop
+
+When you pop from a list, the element removed is returned by the method.
+
+element = list.pop(3)
+
+After the pop, the list looks like this:
+
+['a','b','x','d','e','f','g']
+
+The variable element now holds 'c'.
+More on Dictionaries
+
+You can examine a dictionary using methods like so:
+
+    To look at all the keys: dictionary.keys()
+    To look at all the values: dictionary.values()
+    To look at all the key-value pairs: dictionary.items()
+
+Each of these methods returns a "view" of part of the dictionary that resembles a list. However, these lists are immutable, meaning you can't change their contents. If you want to change a dictionary, you will need to edit it directly.
+
+You can also loop through a dictionary in different ways:
+
+# Loop through values in dictionary
+
+for i in dictionary.values():
+
+​
+
+# Loop through keys in dictionary
+
+for j in dictionary.keys():
+
+​
+
+# Loop through both values and keys at the same time
+
+for i,j in dictionary.items():
